@@ -1,0 +1,25 @@
+.pizza-form {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pizza-form__label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pizza-form__text {
+    margin-bottom: 8px;
+}
+
+p {
+    font-weight: bold;
+}
+
+span {
+    font-weight: normal;
+    margin-left: 6px;
+}

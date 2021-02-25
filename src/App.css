@@ -32,3 +32,24 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  padding: 8px 15px;
+  background-color: #61DBFB;
+  border-radius: 4px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.input {
+  padding: 8px;
+}
+
+.select {
+  padding: 8px;
+}

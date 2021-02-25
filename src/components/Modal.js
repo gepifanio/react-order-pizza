@@ -14,16 +14,16 @@ export default class Modal extends React.Component {
             return null;
         }
         return (
-            <div id="modal">
-                <div>
+            <div id="modal" className="modal">
+                <div className="modal-content">
 
                     <h2>Please confirm your order</h2>
                     <div>{this.props.children}</div>
                     <div>
-                        <button onClick={this.onConfirm}>
+                        <button className="btn" onClick={this.onConfirm}>
                             Confirm
           </button>
-                        <button onClick={this.onCancel}>
+                        <button className="btn" onClick={this.onCancel}>
                             Cancel
           </button>
                     </div>
