@@ -140,7 +140,7 @@ class PizzaForm extends React.Component {
                                     onChange={this.handleChange}
                                     required
                                 >
-                                    <option value="">-- Select an option --</option>
+                                    <option value=""> -- Select your pizza -- </option>
                                     <option value='pepperoni'>Pepperoni</option>
                                     <option value='margherita'>Margherita</option>
                                     <option value='cheese'>Cheese</option>
